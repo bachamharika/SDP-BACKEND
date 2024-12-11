@@ -20,7 +20,7 @@ import jakarta.servlet.http.HttpSession;
 
 @Controller
 @RequestMapping("/student")
-@CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true")
+@CrossOrigin(origins = "https://sdpforntend30901.netlify.app/", allowCredentials = "true")
 public class StudentController {
 
     @Autowired
