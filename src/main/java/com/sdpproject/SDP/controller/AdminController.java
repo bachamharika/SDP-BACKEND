@@ -27,7 +27,7 @@ import com.sdpproject.SDP.service.ScholarShipService;
 
 @RestController
 @RequestMapping("/admin") 
-@CrossOrigin(origins = "https://sdpforntend30901.netlify.app/") 
+@CrossOrigin(origins = "https://sdpforntend30901.netlify.app") 
 public class AdminController {
 	
 	@Autowired
